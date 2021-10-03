@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(89, 89, 238);
+  background-color: white;
   font-size: 18px;
   font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif;
@@ -8,131 +8,130 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+}
+/*784
+590
+762
+440
+345*/
+
+.navigation {
+  grid-column: 1/3;
+  padding: 1.5rem;
 }
 
-.navigation{
-grid-column: 1/3;
+.hero {
+  grid-column: 1/3;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
 }
 
-.hero{
-grid-column: 1/3;
-
+.transform-brand-egg {
+  grid-column: 2/3;
+  background-image: url(../images/desktop/image-transform.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
 }
 
-.hero img {
+.transform-brand-text {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.information-header {
+}
+
+.information-header--green {
+}
+
+.information-header--blue {
+}
+
+.description {
+}
+
+.description--green {
+}
+
+.description--blue {
+}
+
+.learn-more {
+}
+
+.stand-out-glass {
+  background-image: url(../images/desktop/image-stand-out.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+
+.stand-out-glass img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.hero__header{
-text-align: center;
+.stand-out-text {
 }
 
-.transform-brand-egg{
-grid-column: 2/3;
-}
-
-.transform-brand-text{
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-
-.information-header{
-
-}
-
-.information-header--green{
-
-}
-
-.information-header--blue{
-
-}
-
-.description{
-
-}
-
-.description--green{
-
-}
-
-.description--blue{
-
-}
-
-.learn-more{
-
-}
-
-.stand-out-glass{
-
-}
-
-.stand-out-text{
-}
-
-.graphic-design{
-}
-
-.photography{
-}
-
-.testimonials{
-grid-column: 1/3; 
-}
-
-.testimonials-header{
-  
-}
-
-.testimonial{
-  
-}
-
-.testimonial__photo{
-
-}
-
-.testimonial__description{
-
-}
-
-.testimonial__person{
-
-}
-
-.testimonial__position{
-
-}
-
-.gallery{
-  grid-column: 1/3; 
-
-}
-
-.footer{
-  grid-column: 1/3; 
+.graphic-design {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
 }
 
 
+.photography {
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
 
 
+.testimonials {
+  grid-column: 1/3;
+  display: flex; 
+  min-height: 600px;
+}
 
+.testimonials-header {
+}
 
+.testimonial {
+}
 
+.testimonial__photo {
+}
 
+.testimonial__description {
+}
 
+.testimonial__person {
+}
 
+.testimonial__position {
+}
 
+.gallery {
+  grid-column: 1/3;
+  display: flex;
+}
 
-
-
-
-
-
-
+.footer {
+  grid-column: 1/3;
+}
 
 /* 
 Layout:
