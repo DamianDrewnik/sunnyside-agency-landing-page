@@ -27,71 +27,69 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="grid">
-     
-
       <div class="hero">
         <nav class="navigation">
-          <img src="images/logo.svg" />
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-          <img src="images/icon-hamburger.svg" />
+          <div class="logo"><img src="images/logo.svg" /></div>
+          <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img class="burger" src="images/icon-hamburger.svg" alt="BURGER MENU">
         </nav>
-        <!-- srcset="images/mobile/image-graphic-design.jpg 200w,
-                images/desktop/image-header.jpg 600w"
-                sizes="(max-width: 200px) 480px,
-                600px"  Playing with srcset attribute for later-->
-        <!-- <img src="images/desktop/image-header.jpg" alt="" /> -->
         <h1 class="hero__header">We are creatives</h1>
       </div>
 
-        <div class="transform-brand-egg"></div>
-        <div class="transform-brand-text">
-          <h2 class="information-header">Transform your brand</h2>
-          <p class="description">
-            We are a full-service creative agency specializing in helping brands
-            grow fast. Engage your clients through compelling visuals that do
-            most of the marketing for you.
-          </p>
-          <a href="#" class="learn-more">Learn more</a>
-        </div>
-      
-        <div class="stand-out-glass"></div>
-        <div class="stand-out-text">
-          <h2 class="information-header">Stand out to the right audience</h2>
-          <p class="description">
-            Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we’ll build and
-            extend your brand in digital places.
-          </p>
-          <a href="#" class="learn-more">Learn more</a>
-        </div>
-      
-      
-        <div class="graphic-design">
-          <h2 class="information-header information-header--green">Graphic design</h2>
-          <p class="description description--green">
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-        <div class="photography">
-          <h2 class="information-header information-header--blue">Photography</h2>
-          <p class="description description--blue">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      
+      <div class="transform-brand-egg"></div>
+      <div class="transform-brand-text">
+        <h2 class="information-header">Transform your brand</h2>
+        <p class="description">
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <a href="#" class="learn-more">Learn more</a>
+      </div>
+
+      <div class="stand-out-glass"></div>
+      <div class="stand-out-text">
+        <h2 class="information-header">Stand out to the right audience</h2>
+        <p class="description">
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <a href="#" class="learn-more">Learn more</a>
+      </div>
+
+      <div class="graphic-design">
+        <h2 class="information-header information-header--green">
+          Graphic design
+        </h2>
+        <p class="description description--green">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="photography">
+        <h2 class="information-header information-header--blue">Photography</h2>
+        <p class="description description--blue">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+
       <div class="testimonials">
         <h3 class="testimonials-header">Client testimonials</h3>
         <div class="testimonial">
@@ -124,10 +122,27 @@
         </div>
       </div>
       <div class="gallery">
-        <div><img src="images/desktop/image-gallery-milkbottles.jpg" alt="MILK BOTTLES" /></div>
-        <div><img src="images/desktop/image-gallery-orange.jpg" alt="ORANGE" /></div>
-        <div><img src="images/desktop/image-gallery-cone.jpg" alt="ICE CREAM CONE" /></div>
-        <div><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="SUGAR CUBES" /></div>
+        <div>
+          <img
+            src="images/desktop/image-gallery-milkbottles.jpg"
+            alt="MILK BOTTLES"
+          />
+        </div>
+        <div>
+          <img src="images/desktop/image-gallery-orange.jpg" alt="ORANGE" />
+        </div>
+        <div>
+          <img
+            src="images/desktop/image-gallery-cone.jpg"
+            alt="ICE CREAM CONE"
+          />
+        </div>
+        <div>
+          <img
+            src="images/desktop/image-gallery-sugarcubes.jpg"
+            alt="SUGAR CUBES"
+          />
+        </div>
       </div>
       <div class="footer">
         <a href="#"> About</a>
@@ -138,8 +153,6 @@
         <img src="images/icon-twitter.svg" />
         <img src="images/icon-pinterest.svg" />
       </div>
-
-      
     </div>
     <div class="attribution">
       Challenge by
@@ -147,5 +160,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://www.damiandrewnik.com">Damian Drewnik</a>.
     </div>
+    <script src="scripts/navbar.js"></script>
   </body>
 </html>
