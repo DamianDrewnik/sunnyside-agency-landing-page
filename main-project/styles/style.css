@@ -80,6 +80,10 @@ img{
   border-radius: 34px;
   font-family: "Fraunces", serif;
 }
+.nav-links .contact:hover {
+ background-color: #6FCFFF;
+ color: white;
+}
 
 .nav-links .contact--yellow {
   background-color: hsl(51, 100%, 49%);
@@ -150,12 +154,20 @@ img{
 .learn-more {
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-color: hsl(51, 100%, 49%, 0.5);
   text-decoration-thickness: 0.3rem;
   color: black;
 }
+.learn-more:hover {
+  text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-thickness: 0.5rem;
+}
 
 .learn-more--red {
+  text-decoration-color: hsl(7, 99%, 70%, 0.5);
+}
+
+.learn-more--red:hover {
   text-decoration-color: hsl(7, 99%, 70%);
 }
 
@@ -291,9 +303,14 @@ img{
 }
 
 .footer-nav a {
-  color: hsl(0, 0%, 100%);
+  color: hsl(167, 40%, 24%);
   text-decoration: none;
   font-family: "Barlow", sans-serif;
+  padding: 1.5rem;
+}
+
+.footer-nav a:hover{
+  color: hsl(0, 0%, 100%);
 }
 
 .footer-social {
@@ -302,11 +319,9 @@ img{
   display: flex;
   justify-content: space-around;
 }
-
-.footer-nav a {
-  color: hsl(167, 40%, 24%);
-  text-decoration: none;
-  padding: 1.5rem;
+.footer-social img:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(183deg) brightness(105%) contrast(100%);
+  cursor: pointer;
 }
 
 .logo--green {
