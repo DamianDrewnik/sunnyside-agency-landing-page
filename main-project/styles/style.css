@@ -4,7 +4,7 @@ body {
   font-family: "Fraunces", serif;
 }
 
-img{
+img {
   display: block;
 }
 
@@ -81,8 +81,8 @@ img{
   font-family: "Fraunces", serif;
 }
 .nav-links .contact:hover {
- background-color: #6FCFFF;
- color: white;
+  background-color: #6fcfff;
+  color: white;
 }
 
 .nav-links .contact--yellow {
@@ -265,16 +265,16 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.gallery div:nth-child(1){
+.gallery div:nth-child(1) {
   grid-column: 1/2;
 }
-.gallery div:nth-child(2){
+.gallery div:nth-child(2) {
   grid-column: 2/3;
 }
-.gallery div:nth-child(3){
+.gallery div:nth-child(3) {
   grid-column: 3/4;
 }
-.gallery div:nth-child(4){
+.gallery div:nth-child(4) {
   grid-column: 4/5;
 }
 
@@ -309,7 +309,7 @@ img{
   padding: 1.5rem;
 }
 
-.footer-nav a:hover{
+.footer-nav a:hover {
   color: hsl(0, 0%, 100%);
 }
 
@@ -320,7 +320,8 @@ img{
   justify-content: space-around;
 }
 .footer-social img:hover {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(183deg) brightness(105%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+    hue-rotate(183deg) brightness(105%) contrast(100%);
   cursor: pointer;
 }
 
@@ -330,10 +331,10 @@ img{
 }
 
 @media screen and (max-width: 966px) {
-  .wrapper{
-  width: 100%;
-  overflow-x: hidden;
- }
+  .wrapper {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .grid {
     display: flex;
     flex-direction: column;
@@ -363,7 +364,6 @@ img{
   .nav-links {
     position: absolute;
     right: 5%;
-    /* left: 5%; */
     height: 16rem;
     top: 4rem;
     display: flex;
@@ -382,7 +382,6 @@ img{
     color: hsl(210, 4%, 67%);
   }
   .burger {
-    /* position: absolute; */
     display: block;
     cursor: pointer;
   }
@@ -397,8 +396,8 @@ img{
     width: 100%;
     font-size: 30px;
     text-align: center;
-padding-top: 1rem;
-padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .description {
     line-height: 2rem;
@@ -416,76 +415,38 @@ padding-bottom: 1rem;
     padding: 2rem;
     align-content: center;
   }
-  .description--green{
+  .description--green {
     line-height: 1.5rem;
     width: 90%;
   }
-  .description--blue{
+  .description--blue {
     line-height: 1.5rem;
     width: 90%;
   }
-  .testimonials{grid-template-columns: 1fr;;
-    padding: 2rem;}
-  .testimonial{grid-column: 1/2;
-  padding: 0.5rem;}
-  .gallery{
+  .testimonials {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .testimonial {
+    grid-column: 1/2;
+    padding: 0.5rem;
+  }
+  .gallery {
     grid-template-columns: 1fr 1fr;
   }
-  .gallery div:nth-child(1){
+  .gallery div:nth-child(1) {
     grid-column: 1/2;
   }
-  .gallery div:nth-child(2){
+  .gallery div:nth-child(2) {
     grid-column: 2/3;
   }
-  .gallery div:nth-child(3){
+  .gallery div:nth-child(3) {
     grid-column: 1/2;
   }
-  .gallery div:nth-child(4){
+  .gallery div:nth-child(4) {
     grid-column: 2/3;
   }
-  .footer-social{
+  .footer-social {
     width: 70%;
   }
-
 }
-
-/* 
-Layout:
-The designs were created to the following widths:
-Mobile: 375px
-Desktop: 1440px
-
-Colors
-Soft red: hsl(7, 99%, 70%)
-Yellow: hsl(51, 100%, 49%)
-Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-Dark blue (photography text): hsl(198, 62%, 26%)
-Dark moderate cyan (footer): hsl(168, 34%, 41%)
-Neutral
-Very dark desaturated blue: hsl(212, 27%, 19%)
-Very dark grayish blue: hsl(213, 9%, 39%)
-Dark grayish blue: hsl(232, 10%, 55%)
-Grayish blue: hsl(210, 4%, 67%)
-White: hsl(0, 0%, 100%)
-
-Typography:
-Body Copy
-Font size: 18px
-Font
-Family: Barlow https://fonts.google.com/specimen/Barlow
-Weights: 600
-Family: Fraunces https://fonts.google.com/specimen/Fraunces
-Weights: 700, 900
-
-Icons
-We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
-Font Awesome https://fontawesome.com/
-IcoMoon https://icomoon.io/
-Ionicons https://ionic.io/ionicons
-
-
-
-
-
-
-*/
